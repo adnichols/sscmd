@@ -6,7 +6,7 @@ from optparse import OptionParser
 from stat import *
 
 total_time = []
-h = httplib2.Http(".cache")
+h = httplib2.Http(cache=".cache", timeout=30)
 
 # Command line options
 parser = OptionParser()
