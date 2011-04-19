@@ -1,4 +1,4 @@
-#!/usr/bin/env python -W all
+#!/usr/bin/env python
 
 import httplib2, urllib2, sys, re, time, os, string
 from xml.dom import minidom
